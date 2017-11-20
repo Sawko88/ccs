@@ -1,0 +1,30 @@
+/*
+ * PWR.cpp
+ *
+ *  Created on: 20 но€б. 2017 г.
+ *      Author: shestakov.aa
+ */
+
+#include "headers/PWR.h"
+#include <stdint.h>
+#include <stdbool.h>
+#include "inc/hw_ints.h"
+#include "inc/hw_memmap.h"
+#include "utils/uartstdio.h"
+#include <string.h>
+#include <string>
+#include <stdlib.h>
+#include "driverlib/pin_map.h"
+#include "driverlib/gpio.h"
+
+
+pwrParam pwrParamTab[]={
+
+}
+
+PWR::PWR()
+{
+    // TODO Auto-generated constructor stub
+
+}
+

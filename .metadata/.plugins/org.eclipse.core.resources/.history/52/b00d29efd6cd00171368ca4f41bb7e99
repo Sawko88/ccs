@@ -1,0 +1,43 @@
+/*
+ * comTest.h
+ *
+ *  Created on: 18 окт. 2017 г.
+ *      Author: shestakov.aa
+ */
+#include <stdint.h>
+#include <stdbool.h>
+#include "PWR.h"
+
+#ifndef COMTEST_H_
+#define COMTEST_H_
+
+
+
+struct ParamOut
+{
+    uint8_t name;
+    uint32_t port;
+    uint8_t pin;
+    uint8_t state;
+};
+
+
+class comTest
+{
+public:
+    comTest();
+    void SendMess(void);
+    void ReadMess(char);
+    void ParserMess(void);
+    void ClearMess(void);
+    void ParserOut(void);
+    PWR pwww;
+
+private:
+    uint32_t count;
+    char mess[100];
+    ParamOut CurentOut;
+    bool PopalOut;
+};
+
+#endif /* COMTEST_H_ */

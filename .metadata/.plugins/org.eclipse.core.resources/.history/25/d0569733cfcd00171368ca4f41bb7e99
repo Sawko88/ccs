@@ -1,0 +1,20 @@
+/*
+ * PWR.h
+ *
+ *  Created on: 20 но€б. 2017 г.
+ *      Author: shestakov.aa
+ */
+
+#ifndef PWR_H_
+#define PWR_H_
+
+
+struct
+
+class PWR
+{
+public:
+    PWR();
+};
+
+#endif /* PWR_H_ */

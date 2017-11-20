@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;uart_echo/uart_echo.c&apos; to &apos;uart_echo.cpp&apos;" description="Rename resource &apos;uart_echo.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="uart_echo.c" name="uart_echo.cpp" stamp="1508330871229" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;testPO/uart_echo.cpp&apos; to &apos;main.cpp&apos;" description="Rename resource &apos;uart_echo.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="uart_echo.cpp" name="main.cpp" stamp="1508331949835" updateReferences="true"/>
+</session>

@@ -1,0 +1,15 @@
+/*
+ * PWR.cpp
+ *
+ *  Created on: 20 но€б. 2017 г.
+ *      Author: shestakov.aa
+ */
+
+#include "headers/PWR.h"
+
+PWR::PWR()
+{
+    // TODO Auto-generated constructor stub
+
+}
+
